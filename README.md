@@ -6,27 +6,29 @@ PC
 Anaconda - Python 3.7
 ## Algorithm: 
 ### Step 1: 
-### Step 2: 
-### Step 3: 
-Get the value from the user for the number of rotation
-### Step 4: 
-Using the slicing concept rotate the list
+Get the value from the user for the number of rotation.
 
-### Step 5: 
-### Step 6: 
+### Step 2: 
+Using the slicing concept rotate the list.
+
+### Step 3: 
+Print the result(Rotated list).
+
+### Step 4: 
+End of program.
+
+
 ## Program:
 ~~~
-#Program to circulate N values.
-#Developed by: kathirvel
-#RegisterNumber:21002362
 def circulate():
-    num1=[10,20,30,40,50,60]
-    a=int(input())
-    circulates=num1[a:]+num1[:a]
-    print("After circulating the values are:",circulates)
-    return
+    n=int(input())
+    l=[10,20,30,40,50,60]
+    l=l[n:]+l[:n]
+    print("After circulating the values are:",l)
 ~~~
 
 ## Output:
+![GitHub Logo](CIRCULATE.png)
 
 ## Result:
+PROGRAM FINISHED SUCCESSFULLY.
